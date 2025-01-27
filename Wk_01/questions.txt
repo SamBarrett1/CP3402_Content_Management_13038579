@@ -1,0 +1,54 @@
+Wk_01 Prac questions
+Samuel Barrett - 13038579
+
+1. Which one of the following is a CSS style rule that could be
+described as: “The content of the element will be red, with 20
+pixels of space the same colour as the element background,
+then a yellow border.”
+a) color: red; padding:20px; border:solid yellow;
+b) content: red; padding:20px; border-color: yellow;
+c) font-color: red; padding:20px; border-color: yellow;
+d) color: red; margin:20px; border solid: yellow;
+
+Answer: c
+
+2. Write a CSS style rule for a class called “warning” with white
+text, a red background colour and 2 em of padding on the top
+and bottom sides.
+
+Answer: 
+.warning {
+    font-color: white;
+    background-color: red;
+    padding: 2em 0 2em 0;
+}
+
+.warning {
+    font-color: white;
+    background-color: red;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+
+3. Explain the difference between the <div> and <span>
+elements, both technically and in terms of how they should
+be used.
+
+- A <div> is a dividing block type of element that takes up the full width of its place.
+It is used for grouping blocks of content and elements. It creates a new line before and
+after itself.
+- A <span> is an inline element that wraps inline elements and only takes up the necessary
+width without forcing new lines.
+
+
+4. List two empty (void) HTML elements and two non-empty
+elements
+
+- 2 empty HTML elements:
+<br>
+<img>
+
+- 2 non-empty HTML elements:
+<div></div>
+<p></p>
