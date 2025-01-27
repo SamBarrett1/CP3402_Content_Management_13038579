@@ -52,3 +52,52 @@ elements
 - 2 non-empty HTML elements:
 <div></div>
 <p></p>
+
+5. Describe at least 3 differences between JPEG and GIF
+image formats and how you would choose one format over
+the other
+
+JPEG (Joint Photographic Experts Group)
+- lossy format (loses some pixels in compression)
+- 16 million colours
+- no transparency in images
+
+GIF (Graphics Interchange Format)
+- lossless format (all pixels conserved in compression)
+- 256 colours
+- can have transparency in images
+
+6. Describe the task analysis process for website usability
+testing and explain two (2) reasons why it is a good method.
+
+- Task analysis involves observing users use the website. It observes how they navigate,
+where they go, what they click and don't click, how long it takes.
+- It is a good method because it reveals what the user needs, and can be used to improve usability 
+
+7. Write the (minimal) HTML for a form that sends a user's
+name (text field and submit button) to hi.php.
+
+<form action="hi.php" method="post">
+    Name: <input type="text" name="name" required>
+    <input type="submit" value="Submit">
+</form>
+
+8. See the answer in html.index within root folder (Wk_01)
+
+9. What do each of the following JavaScript functions do:
+a) alert("Good") = launches small pop-up window with "Good" with Ok button
+b) confirm("Do you want X?") = launches small pop-up window with "Do you want X?" with Ok or Cancel buttons
+c) prompt("What is your name?") = launches small pop-up window with "What is your name" with input field and Ok or Cancel buttons
+
+
+10. Explain what the following CSS selector selects:
+div#abc > p {…}
+
+- The CSS selector div#abc p targets all <p> elements that are descendants of a <div> element with the ID abc
+
+
+11. What is the number 1 rule of Web design and development?
+The bottom line… The most important thing...?
+
+The number 1 rule of web design is ensuring usability and accesibility of the website. The bottom line would
+proobably be usabilty because it includes accesibility.
